@@ -3,8 +3,7 @@
     font-family: 'Nerko One', cursive;
 }
 body{
-    background-image: linear-gradient(to top, rgba(89,106,114, 0.6), rgba(206,220,152, 0.4)), url(./img/background.jpg);
-height: 98vh;
+    background-image:  url(./img/background1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
