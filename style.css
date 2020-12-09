@@ -1,68 +1,66 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Nerko One', cursive;
+* {
+  box-sizing: border-box;
+  font-family: "Nerko One", cursive;
 }
-body{
-    background-image:  url(./img/background1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(./img/background1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.main_game{
-    max-width: 1300px;
-    margin: 0 auto;
+.main_game {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-.description_img{
-    display: flex;
-    margin: 40px;
-
+.description_img {
+  display: flex;
+  margin: 40px;
 }
-.description_image{
-    width: 50%;
-    max-width: 300px;
-    margin: 20px;
+.description_image {
+  max-width: 300px;
+  margin: 20px;
 }
-.description_text{
-    
-    width: 50%;
-    align-items: center;
-    font-size: 24px;
-    margin: 20px;
+.description_text {
+  width: 50%;
+  align-items: center;
+  font-size: 24px;
+  margin: 20px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .header_name {
-  
-    padding: 50px 20px;
-    text-align: center;
-  } 
+  padding: 50px 20px;
+  text-align: center;
+}
+.header_name h1 {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  color: #5c2610;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 1;
+  padding: 10px 0;
+  margin: 0;
+  display: inline-block;
+}
+.header_name h1:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 200%;
+  border-radius: 50%/30%;
+  border: 6px solid #5c2610;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+@media (max-width: 420px) {
   .header_name h1 {
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-    color: #5C2610;
-    font-size: 3em;
-    font-weight: normal;
-    line-height: 1;
-    padding: 10px 0;
-    margin: 0;
-    display: inline-block;
+    font-size: 2em;
   }
-  .header_name h1:before {
-    content: ""; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 80%;
-    height: 200%;
-    border-radius: 50%/30%;
-    border: 6px solid #5C2610;
-    border-left-color: transparent;
-    border-right-color: transparent;
-  }
-  @media (max-width: 420px) {
-    .header_name h1 {font-size: 2em;}
-  }
+}
