@@ -19,6 +19,7 @@ body {
 }
 .description_image {
   max-width: 300px;
+  max-height: 530px;
   margin: 20px;
 }
 .description_text {
