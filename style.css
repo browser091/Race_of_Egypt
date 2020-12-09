@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: "Nerko One", cursive;
 }
 body {
   background-image: url(./img/background1.jpg);
@@ -59,6 +58,13 @@ a {
   border: 6px solid #5c2610;
   border-left-color: transparent;
   border-right-color: transparent;
+}
+p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+}
+.title {
+  font-weight: bold;
 }
 @media (max-width: 420px) {
   .header_name h1 {
